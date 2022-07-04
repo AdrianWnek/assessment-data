@@ -289,9 +289,9 @@ module.exports = {
         insert into cities
         (name, rating, country_id)
         values
-        ('New York', 4, 187),
-        ('Paris', 5, 61),
-        ('Singapore', 4, 157);
+        ('Poland', 4, 187),
+        ('Sydney', 5, 61),
+        ('Thailand', 4, 157);
         `).then(() => {
             console.log('DB seeded!')
             res.sendStatus(200)
